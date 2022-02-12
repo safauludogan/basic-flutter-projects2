@@ -29,7 +29,7 @@ class ListViewUsage extends StatelessWidget {
               index % 2 == 0 ? Colors.orange.shade100 : Colors.purple.shade100,
           child: ListTile(
             onLongPress: () {
-              _alertDialog(context, currentStudent);
+              _alertDialog(context, currentStudent);//AlertDialog başlat
             },
             onTap: () {
               EasyLoading.showToast(
